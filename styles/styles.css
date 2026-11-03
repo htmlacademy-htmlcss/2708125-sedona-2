@@ -1769,6 +1769,10 @@ img {
   fill: #000000;
 }
 
+.minus:focus-visible,
+.plus:focus-visible {
+  outline: none;
+}
 .minus svg:active,
 .plus svg:active {
   fill: rgba(117, 97, 87, 0.3);
